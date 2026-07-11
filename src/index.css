@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Tahoma:wght@400;700&family=Verdana:wght@400;700&family=Courier+New:wght@400;700&display=swap');
+
+@theme {
+  --font-sans: "Tahoma", "Verdana", system-ui, sans-serif;
+  --font-mono: "Courier New", monospace;
+}
+
+/* Custom Bevel Utility Classes representing 2006 WinXP and Classic Web styling */
+.bevel-out {
+  border-top: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+  border-bottom: 2px solid #5a5a5a;
+  border-right: 2px solid #5a5a5a;
+}
+
+.bevel-in {
+  border-top: 2px solid #5a5a5a;
+  border-left: 2px solid #5a5a5a;
+  border-bottom: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+}
+
+.bevel-out-red {
+  border-top: 2px solid #ff8080;
+  border-left: 2px solid #ff8080;
+  border-bottom: 2px solid #4a0000;
+  border-right: 2px solid #4a0000;
+}
+
+/* Retro Glossy Textures matching 2006 Netflix Screenshot */
+.glossy-red-header {
+  background: linear-gradient(to bottom, #e3000b 0%, #9e0000 100%);
+  border-bottom: 1px solid #7a0000;
+}
+
+.glossy-nav-bar {
+  background: linear-gradient(to bottom, #333333 0%, #111111 100%);
+}
+
+.glossy-red-btn {
+  background: linear-gradient(to bottom, #e50914 0%, #b80710 100%);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+.glossy-red-btn:hover {
+  background: linear-gradient(to bottom, #ff1a26 0%, #e50914 100%);
+}
+
+.glossy-silver-btn {
+  background: linear-gradient(to bottom, #fefefe 0%, #dcdcdc 100%);
+  border: 1px solid #8e8e8e;
+}
+
+.glossy-silver-btn:hover {
+  background: linear-gradient(to bottom, #ffffff 0%, #eaeaea 100%);
+}
+
+/* Dot pattern for CRT/TV simulation */
+.scanlines {
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 0, 0, 0.25) 50%
+  ), linear-gradient(
+    90deg, 
+    rgba(255, 0, 0, 0.06), 
+    rgba(0, 255, 0, 0.02), 
+    rgba(0, 0, 255, 0.06)
+  );
+  background-size: 100% 4px, 6px 100%;
+}
+
+/* Windows XP Scrollbar styles where supported */
+::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border: 1px solid #d3d3d3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border: 2px solid #f1f1f1;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-button {
+  display: block;
+  background-color: #d3d3d3;
+  border: 1px solid #a0a0a0;
+}
+
+/* Base Body Styles */
+body {
+  background-color: #3b3b3b; /* Desktop background matching XP / dark border container style */
+  font-family: "Tahoma", "Verdana", sans-serif;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Table grid borders */
+.grid-table {
+  border-collapse: collapse;
+}
+.grid-table th {
+  background: linear-gradient(to bottom, #f6f6f6 0%, #e5e5e5 100%);
+  border: 1px solid #cccccc;
+  font-weight: bold;
+}
+.grid-table td {
+  border: 1px solid #dddddd;
+}
+
+/* Custom styling for standard select inputs */
+select, input {
+  font-family: "Tahoma", sans-serif;
+}
