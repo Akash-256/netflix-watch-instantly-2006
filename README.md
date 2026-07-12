@@ -1,5 +1,4 @@
-# Netflix Watch Instantly (Beta) · 2006 Edition
-
+# [Netflix Watch Instantly (Beta) · 2006 Edition](https://netflix-watch-instantly-2006.vercel.app/)
 > A fully functional reimagining of the modern Netflix experience as if it had launched in late 2006.
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
