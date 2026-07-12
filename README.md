@@ -143,9 +143,7 @@ Problem Statement:
 **ForgeX**
 
 - Rushikesh Waghmare
-- Team Member
-- Team Member
-
+- Akash Shewale
 ---
 
 ## Disclaimer
